@@ -6,3 +6,6 @@ elif num2 > num1 and num2 > num3:
     print("Number 2 is greatest")
 else:
     print("Number 3 is greatest")
+
+print(True or True)
+print(not True)
