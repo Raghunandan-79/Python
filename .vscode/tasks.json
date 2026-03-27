@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Python File (Linux)",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-c",
+        "python3 \"${file}\" < input.txt > output.txt"
+      ],
+      "presentation": {
+        "reveal": "never"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
